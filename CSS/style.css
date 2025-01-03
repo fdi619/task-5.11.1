@@ -1,2 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 400px;
+  background-color: #d0d1d3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("https://images.unsplash.com/photo-1638571179202-05e2201adfbe?q=80&w=1982&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+    bottom no-repeat;
+  background-size: cover;
+}
+
 h1 {
+  color: #292828;
+  font-size: 6rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 60px;
+  text-align: center;
+}
+
+footer .links {
+  margin-bottom: 50px;
+}
+
+footer .links > a {
+  color: #292828;
+  padding: 0 25px;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+footer .copyright {
+  color: #848282;
+  font-family: "Times New Roman", Times, serif;
 }
